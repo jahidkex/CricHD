@@ -16,7 +16,7 @@
     if (!targetId) {
         document.body.innerHTML = "<h2 style='color:white;text-align:center;'>No video ID provided</h2>";
     } else {
-        fetch("https://raw.githubusercontent.com/jahidkex/CricHD/refs/heads/main/crichd.json")
+        fetch("https://raw.githubusercontent.com/jitupatel2506/ipl_data_api/refs/heads/main/live_stream/auto_worldwide_football.json")
             .then(response => {
                 if (!response.ok) throw new Error("Network response was not ok");
                 return response.json();
@@ -40,3 +40,4 @@
 </body>
 
 </html>
+
